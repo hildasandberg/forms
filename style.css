@@ -115,17 +115,18 @@ input[type=text] {
 }
 
 input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 input[type=number] {
-    width: 15%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+  height: 44px;
+  width: 15%;
+  height:
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 input[type=month] {
@@ -139,6 +140,15 @@ input[type=checkbox] {
 }
 
 input[type=radio] {
+}
+
+input:valid {
+  background-color: white;
+}
+
+input:required:invalid:not(:focus):not(:placeholder-shown){
+  border-color: red;
+  border-style: solid;
 }
 
 .join {

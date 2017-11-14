@@ -33,7 +33,7 @@
           <label>
             EMAIL ADDRESS:
             <br>
-            <input type="email" name="email" required>
+            <input type="email" name="email" required placeholder=" ">
             <!-- Oops! You need to type your email here -->
             <p class="info">We'll send your order confirmation here</P>
           </label>
@@ -43,7 +43,7 @@
           <label>
             FIRST NAME:
             <br>
-            <input type="text" name="firstName" required>
+            <input type="text" name="firstName" required placeholder=" ">
             <!-- We need your first name – it’s nicer that way -->
           </label>
         </div>
@@ -52,7 +52,7 @@
           <label>
             LAST NAME:
             <br>
-            <input type="text" name="lastName" required>
+            <input type="text" name="lastName" required placeholder=" ">
             <!-- Last name, too, please! -->
           </label>
         </div>
@@ -61,7 +61,9 @@
           <label>
             PASSWORD:
             <br>
-            <input type="password" name="password" required>
+            <!-- (at least 1 number)(at least 1 lowercase)(at least 1 upperrcase)(at least 6 characters)-->
+            <input pattern="(?=.*\d).{6,}"
+            type="password" id="password" name="password" required placeholder=" ">
             <!-- Hey, we need a password here -->
             <P class="info"> Must be 6 or more characters and contain at least 1 number </P>
           </label>
