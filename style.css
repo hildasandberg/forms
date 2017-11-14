@@ -1,0 +1,80 @@
+body {
+  background: #eee;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 20px;
+}
+
+.form {
+  text-align: left;
+  background: white;
+  width: 400px;
+  margin: auto;
+}
+
+.form div {
+  padding: 13px;
+}
+
+h1, h2, h3{
+  font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+label {
+  font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 2px;
+}
+
+label p {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=month] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+}
+
+input[type=radio] {
+}

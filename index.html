@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <div class="logo">
+      <img src="https://my.asos.com/Content/images/accounts-logo-mobile.png" height="28" width="95" alt="asos">
+    </div>
+
+    <div class="form">
+      <form class="" action="index.html" method="post">
+        <div>
+          <h1>SIGN UP USING YOUR EMAIL ADDRESS</h1>
+          <label>
+            EMAIL ADDRESS:
+            <br>
+            <input type="email" name="email" required>
+            <!-- Oops! You need to type your email here -->
+            <p>We'll send your order confirmation here</P>
+          </label>
+        </div>
+
+        <div>
+          <label>
+            FIRST NAME:
+            <br>
+            <input type="text" name="firstName" required>
+            <!-- We need your first name – it’s nicer that way -->
+          </label>
+        </div>
+
+        <div>
+          <label>
+            LAST NAME:
+            <br>
+            <input type="text" name="lastName" required>
+            <!-- Last name, too, please! -->
+          </label>
+        </div>
+
+        <div>
+          <label>
+            PASSWORD:
+            <br>
+            <input type="password" name="password" required>
+            <!-- Hey, we need a password here -->
+            <P> Must be 6 or more characters and contain at least 1 number </P>
+          </label>
+        </div>
+
+        <div>
+          <label>
+            DATE OF BIRTH:
+            <br>
+            <input type="number" name="DD" min="1" max="31">
+            <input type="month" name="MM">
+            <input type="number" name="YYYY" min="1900" max="2017">
+            <p>Tell us – you'll get a birthday treat if you do</p>
+          </label>
+        </div>
+
+        <div>
+          <label>
+            GENDER:
+            <br>
+            <input type="radio" name="Girl">Girl
+            <input type="radio" name="Guy">Guy
+          </label>
+        </div>
+
+        <div>
+          <label>
+            CONTACT PREFERENCES:
+            <br>
+            <input type="checkbox" name="asosEmails" value=""> Sign me up for exclusive ASOS discounts and style advice by email, post and text
+            <br>
+            <input type="checkbox" name="partnerEmails" value=""> Yes, send me updates by email, post and text from selected ASOS partners
+          </label>
+        </div>
+
+        <div>
+          <button> JOIN ASOS </button>
+        </div>
+
+      </form>
+    </div>
+
+  </body>
+</html>
