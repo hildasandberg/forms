@@ -146,6 +146,11 @@ input:valid {
   background-color: white;
 }
 
+input:focus {
+  border-color: #4286f4;
+  border-style: solid;
+  outline-style: none;
+}
 input:required:invalid:not(:focus):not(:placeholder-shown){
   border-color: red;
   border-style: solid;
