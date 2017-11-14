@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>SIGN UP</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
@@ -12,6 +13,17 @@
     </div>
 
     <div class="form">
+
+      <div class="Social">
+        <h1>SIGN UP WITH...</h1>
+        <button class="facebook"> <i class="fa fa-facebook-official"></i><br>Facebook</button>
+        <button class="google"> <i class="fa fa-google-plus"></i><br>Google</button>
+        <button class="twitter"> <i class="fa fa-twitter"></i><br>twitter</button>
+      </div>
+
+      <p class="socialText">Signing up with social is super quick. No extra passwords to remember - no brain fail. Don't worry, we'd never share any of your data or post anything on your behalf #notevil </p>
+      <hr>
+
       <form class="" action="index.html" method="post">
         <div>
           <h1>SIGN UP USING YOUR EMAIL ADDRESS</h1>
@@ -58,7 +70,6 @@
             <br>
             <input type="number" name="DD" min="1" max="31">
             <input type="month" name="MM">
-            <input type="number" name="YYYY" min="1900" max="2017">
             <p>Tell us – you'll get a birthday treat if you do</p>
           </label>
         </div>
@@ -76,14 +87,16 @@
           <label>
             CONTACT PREFERENCES:
             <br>
-            <input type="checkbox" name="asosEmails" value=""> Sign me up for exclusive ASOS discounts and style advice by email, post and text
+            <input type="checkbox" name="asosEmails" value="">
+            <p class="letter">Sign me up for exclusive ASOS discounts and style advice by email, post and text</p>
             <br>
-            <input type="checkbox" name="partnerEmails" value=""> Yes, send me updates by email, post and text from selected ASOS partners
+            <input type="checkbox" name="partnerEmails" value="">
+            <p class="letter"> Yes, send me updates by email, post and text from selected ASOS partners</p>
           </label>
         </div>
 
         <div>
-          <button> JOIN ASOS </button>
+          <button class="join"> JOIN ASOS </button>
         </div>
 
       </form>

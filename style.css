@@ -8,6 +8,43 @@ body {
   margin: 20px;
 }
 
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.facebook, .google, .twitter{
+  width: 32%;
+  /*height: 50px;*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+  letter-spacing: 2px;
+}
+
+.facebook {
+    background-color: #3B5998;
+}
+.google {
+    background-color: #dd4b39;
+}
+.twitter {
+    background-color: #00aced;
+}
+
+.socialText {
+  width: 30px;
+  margin: auto;
+}
+
 .form {
   text-align: left;
   background: white;
@@ -21,6 +58,8 @@ body {
 
 h1, h2, h3{
   font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+  color: gray;
+  font-weight: bold;
 }
 
 h1 {
@@ -28,6 +67,10 @@ h1 {
   text-align: center;
 }
 
+.form p {
+  margin-top: 0px;
+  color: gray;
+}
 label {
   font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
   font-size: 14px;
@@ -38,6 +81,16 @@ label {
 label p {
     font-size: 12px;
     letter-spacing: 1px;
+}
+hr {
+  width: 90%;
+}
+.letter, .socialText {
+  font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+  font-size: 12px;
+  color: black;
+  letter-spacing: 1px;
+  display: inline;
 }
 
 input[type=email] {
@@ -62,12 +115,14 @@ input[type=password] {
 }
 
 input[type=number] {
+    width: 15%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
 input[type=month] {
+  width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -77,4 +132,16 @@ input[type=checkbox] {
 }
 
 input[type=radio] {
+}
+
+.join {
+  background-color: #555555;
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
