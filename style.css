@@ -1,5 +1,8 @@
 body {
   background: #eee;
+  background-image: url(http://content.asos-media.com/-/media/homepages/unisex/generic-hp/aug-2017/asos-generic-hp-desktop-01-new.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
 }
 
@@ -27,7 +30,7 @@ body {
   width: 32%;
   border: none;
   color: white;
-  padding: 5px 5px;
+  padding: 8px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
