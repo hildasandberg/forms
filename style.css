@@ -1,6 +1,6 @@
 body {
   background: #eee;
-  background-image: url(http://content.asos-media.com/-/media/homepages/unisex/generic-hp/aug-2017/asos-generic-hp-desktop-01-new.jpg);
+  background-image: url(./asosBackgroundLarge.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
@@ -17,6 +17,7 @@ body {
   width: 400px;
   margin: auto;
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 .social {
@@ -26,6 +27,9 @@ body {
     align-items: center;
 }
 
+.social:hover {
+  opacity: 0.8;
+}
 .facebook, .google, .twitter{
   width: 32%;
   border: none;
@@ -166,6 +170,10 @@ input:required:invalid:not(:focus):not(:placeholder-shown){
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.join:hover {
+  background-color: #7c7c7c;
 }
 
 a {
