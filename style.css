@@ -40,16 +40,12 @@ body {
     background-color: #00aced;
 }
 
-.socialText {
-  width: 30px;
-  margin: auto;
-}
-
 .form {
   text-align: left;
   background: white;
   width: 400px;
   margin: auto;
+  padding: 10px;
 }
 
 .form div {
@@ -67,10 +63,6 @@ h1 {
   text-align: center;
 }
 
-.form p {
-  margin-top: 0px;
-  color: gray;
-}
 label {
   font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
   font-size: 14px;
@@ -78,14 +70,17 @@ label {
   letter-spacing: 2px;
 }
 
-label p {
+.info {
     font-size: 12px;
     letter-spacing: 1px;
+    margin: 0;
+    color: gray;
 }
 hr {
   width: 90%;
 }
-.letter, .socialText {
+
+.letter {
   font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
   font-size: 12px;
   color: black;
